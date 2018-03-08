@@ -1,7 +1,18 @@
-# react-scripts
+# @jukka/react-scripts
 
-This package includes scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).<br>
-Please refer to its documentation:
+Forked from [Create React App](https://github.com/facebookincubator/create-react-app).
 
-* [Getting Started](https://github.com/facebookincubator/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
-* [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
+This version adds support for the following features:
+- babel-plugin-styled-components
+- react-hot-loader
+
+## Styled components
+
+Installing `styled-components` in a standard Create React App project will work but debugging is painful without the Webpack plugin.
+
+* Without `babel-plugin-styled-components`, classnames are total gibberish:
+![Before adding babel-plugin-styled-components](images/styled-components-before.png)
+
+* With `babel-plugin-styled-components`, they become human readable:
+![After adding babel-plugin-styled-components](images/styled-components-after.png)
+
