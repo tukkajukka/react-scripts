@@ -1,7 +1,7 @@
 {
   "name": "@jukka/react-scripts",
-  "version": "1.1.1",
-  "description": "Configuration and scripts for Create React App.",
+  "version": "1.1.2",
+  "description": "Configuration and scripts for Create React App with support for styled-components and React Hot Loader",
   "repository": "tukkajukka/react-scripts",
   "license": "MIT",
   "engines": {
